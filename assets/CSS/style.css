@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  body{
+    background: url(i.jpg); 
+    width: 100%;
+  height: 130vh;
+  background-position: center;
+  background-size: cover;
+  
+  }
+  
+  
+  header{
+    
+  }
+  .f{
+    background-color: #080708;;
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+    
+   
+
+  
+  }
+  .g{
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+  }
+  .h {
+    margin: auto 3rem;
+    font-weight: bold;
+    color: rgb(231, 229, 229);
+    position: absolute;
+    top: 25px;
+    left: -20px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+   
+  
+  }
+  .h:hover{
+    color: rgb(36, 21, 199);
+  }
+  .h::after , .h::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(232, 133, 13);
+    display: block;
+    transition: 0.5s;
+  
+  }
+  
+  .h:hover::after, .h:hover::before {
+    width: 100%;
+    
+  }
+  .nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: auto 3rem;
+    text-decoration: none;
+    position: relative;
+    top: 45px;
+    left: 20px;
+    
+   
+  }
+  .nav ul li a{
+    
+    list-style-type: none;
+    display: contents;
+    margin: auto 0.9rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+   
+  }
+  
+  a:hover{
+    color: rgb(232, 7, 7);
+  
+  }
+  .nav ul li a:hover{
+    color: rgb(83, 206, 21);
+  }
+  
+  .nav ul li::after , .nav ul li::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(230, 112, 9);
+    display: block;
+    transition: 0.5s;
+  
+  }
+  .nav ul li:hover::after, .nav ul li:hover::before {
+    width: 100%;
+    
+  }
+   .footer{
+          background: #343434;
+          padding-top: 50px;
+      }
+      .para {
+        position: relative;
+        text-align: left;
+        font-size: large;
+        color: white;
+        top: 20%;
+        left: 25%;
+        font-size: 40px;
+        
+      }
+      .para h1{
+        color: #000000;
+      }
+      .para h4:hover{
+        color: rgb(23, 58, 146);
+      }
+  
+      .container{
+          width: 1540px;
+          height: 40vh;
+          padding-top: 5%;
+          margin: auto;
+          display: flex;
+          justify-content: center;
+          margin-top: 80vh;
+          
+      }
+      .footer-content{
+          width: 100vh;
+          background-color: rgba(0,0,0,0.5);
+      }
+      h3{
+          font-size: 20px;
+          margin-bottom: 15px;
+          text-align: center;
+          color: white;
+      }
+    
+  
+      .footer-content p{
+          width:190px;
+          margin: auto;
+          padding: 7px;
+          color: white;
+      }
+      .footer-content ul a{
+          text-align: center;
+          color: white;
+      }
+      .footer-content ul li{
+        position: relative;
+        text-align: left;
+        left: 42%;
+        color: white;
+    }
+      .list{
+          padding: 0;
+      }
+      .list li{
+          width: auto;
+          text-align: center;
+          list-style-type:none;
+          padding: 7px;
+          position: relative;
+      }
+      .list li::before{
+          content: '';
+          position: absolute;
+          transform: translate(-50%,-50%);
+          left: 5%;
+          top: 100%;
+          width: 0;
+          height: 2px;
+          background: #f18930;
+          transition-duration: .5s;
+      }
+      .list li:hover::before{
+          width: 70px;
+      }
+      .social-icons{
+          text-align: center;
+          padding: 0;
+      }
+      .social-icons li{
+          display: inline-block;
+          text-align: center;
+          padding: 5px;
+      }
+      .social-icons i{
+          color: white;
+          font-size: 25px;
+      }
+      a{
+          text-decoration: none;
+      }
+      a:hover{
+          color: #f18930;
+      }
+      .social-icons i:hover{
+          color: #f18930;
+      }
+      .bottom-bar{
+          background: #dedede;
+          text-align: center;
+          padding: 10px 0;
+          margin-top: 0px;
+          width: 1540px;
+        
+      }
+      .bottom-bar p{
+          color: #000000;
+          margin: 0;
+          font-size: 16px;
+          padding: 7px;
+      }
+  
